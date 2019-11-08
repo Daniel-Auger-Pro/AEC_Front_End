@@ -4,7 +4,8 @@
 
 // Étape 1 : Trouver les variables.
 
-var a; var b; var c; var x; var y;
+// "Ce que j'avais fait! :" var a; var b; var c; var x; var y;
+var a,b,c,x,y;
 
 //  Étape 2 : Lecture (demander à l'usager des données)
 
@@ -15,7 +16,8 @@ x = Number(prompt("Entrez la valeur de X : "));
 
 // Étape 3 : Le calcule
 
-y = (a * (x * x)) + (b * x) + c;
+// "Ce que j'avais fait! :" y = (a * (x * x)) + (b * x) + c;
+y = (a * )
 
 // Étape 4 : AFFICHE les résultats
 
