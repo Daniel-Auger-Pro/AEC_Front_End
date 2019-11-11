@@ -2,9 +2,49 @@
 <html lang="fr-ca">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Je me Présente V3</title>
 </head>
 <body>
+<!-- Place un ancre de retour ( id="hautpage" ) comme demandé -->
+<h1 id="hautpage">Je me présente ...</h1>
 
+<!-- Affiche une photo avec l'atribut ( alt et title ) comme demandé -->
+<img alt="Ma photo" title="Ma photo pris par la caméra." src="img/DanielAuger.jpg"/>
+<h2>Mon nom est Daniel Auger et j'ai 54 ans</h2>
+
+<!-- Titre des caractéristiques en ( h1 ) comme demandé -->
+<h1>Mes principales caractéristiques sont :</h1>
+
+<table border="1">
+    <!--  Affiche les liens Wikipedia... -->
+    <tr>
+        <td><a target="_blank" href="https://fr.wikipedia.org/wiki/%C3%89tudiant">Wikipedia Étudiant</a></td>
+        <td><a target="_blank" href="https://fr.wikipedia.org/wiki/Sport">Wikipedia Sport</a></td>
+        <td><a target="_blank" href="https://fr.wikipedia.org/wiki/Loisir">Wikipedia Loisir</a></td>
+        <td><a target="_blank" href="https://fr.wikipedia.org/wiki/R%C3%AAve">Wikipedia Rêve</a></td>
+    </tr>
+    <!--  Affiche les photos... -->
+    <tr>
+        <td><img alt="Photo d'étudiant" title="Photo d'étudiant pris sur Internet" src="img/Etudiant.jpg" height="224"
+                 width="224"/></td>
+        <td><img alt="Photo de Sport" title="Photo de soprt pris sur Internet" src="img/Sport.jpg" height="157"
+                 width="320"/></td>
+        <td><img alt="Photo de Loisir" title="Photo de loisir pris sur Internet" src="img/Loisirs.jpg" height="156"
+                 width="207"/></td>
+        <td><img alt="Photo de mon Rêve" title="Photo de rêve pris sur Internet" src="img/Reve.jpg" height="157"
+                 width="321"/></td>
+    </tr>
+    <!--  Affiche les liens ancres ... -->
+    <tr>
+        <!-- Demande d'allé sur un ancre ( "#etudes" ) -->
+        <td><h1><a href="etudes.html#etudes">Je suis étudiant</a></h1></td>
+        <!-- Demande d'allé sur un ancre ( "#sports" ) -->
+        <td><h1><a href="sports.html#sports">Les sports que je pratique</a></h1></td>
+        <!-- Demande d'allé sur un ancre ( "#loisirs" ) -->
+        <td><h1><a href="loisirs.html#loisirs">Les loisirs que je préfère</a></h1></td>
+        <!-- Demande d'allé sur un ancre ( "#reve" ) -->
+        <td><h1><a href="reve.html#reve">Mon plus grand rêve est</a></h1></td>
+    </tr>
+</table>
 </body>
 </html>
