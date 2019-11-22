@@ -23,13 +23,14 @@ p{
     text-align: justify;
 }
 a{
-    text-decoration: none;
+    text-decoration-line: none;
     color: lightskyblue;
 }
 a:visited{
     color: blue;
 }
 a:hover{
+    text-decoration-line: underline;
     text-decoration-color: white ;
 }
 img{
