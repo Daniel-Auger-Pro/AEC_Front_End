@@ -11,6 +11,8 @@ zero = 0;
 nbr1 = Number(prompt("Veuillez entrer le nombre 1 svp :"));
 nbr2 = Number(prompt("Veuillez entrer le nombre 2 svp :"));
 
+// Vérification si le nombre 2 est zéro, sinon faire la division et les affichés.
+
 if(nbr2 != zero){
     resultat = nbr1 / nbr2;
     document.write(" " + nbr1 + " diviser par " + nbr2 + " est égal à : " + resultat);

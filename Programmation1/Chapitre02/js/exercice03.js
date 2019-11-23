@@ -10,6 +10,8 @@ plusPetit = 9;
 nbr1 = Number(prompt("Veuillez entrer le nombre 1 svp :"));
 nbr2 = Number(prompt("Veuillez entrer le nombre 2 svp :"));
 
+// Vérification si les deux nombres sont plus grand que le chiffre demandé et écriture du bon mot.
+
 if(nbr1 > plusPetit && nbr2 > plusPetit){
     document.write(" BONJOUR ");
 }

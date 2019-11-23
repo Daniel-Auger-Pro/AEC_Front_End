@@ -10,12 +10,14 @@ achatMinimum = 200;
 
 achatTotal = Number(prompt("Veuillez entrer le Total des Achats svp :"));
 
+// Vérification si l'achat est plus grand que le total demandé et lui donner une réduction.
+
 if(achatTotal >= achatMinimum){
     reduction = achatTotal * 15 / 100;
     document.write(" Le réduction que le client a droit est de : " + reduction);
 }
     else {
         reduction = 0;
-        document.write(" Le client n'as pas le droit à la réduction car le Total des Achats n'est pas supérieur ou" +
+        document.write(" Le client n'a pas le droit à la réduction car le total des achats n'est pas supérieur ou" +
             " égal à : " + achatMinimum + " car il n'est que de : " + achatTotal);
 }

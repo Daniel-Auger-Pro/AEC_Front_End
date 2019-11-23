@@ -10,6 +10,8 @@ plusHaut = -10;
 
 degre = Number(prompt("Veuillez entrer une température plus haute que -40°C svp :"));
 
+// Vérification si le nombre entré est entre les deux degrés a vérifiés.
+
 if(degre >= plusBas && degre <= plusHaut){
     document.write(" HAAAAAAAAA! Il fait froid");
 }

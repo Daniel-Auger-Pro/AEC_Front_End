@@ -6,12 +6,14 @@ var nbr;
 
 nbr = Number(prompt("Veuillez entrer un nombre svp :"));
 
+// Vérification d'un chiffre pour savoir son signe.
+
 if ( nbr > 0 ){
     document.write(" Le nombre : " + nbr + " est positif");
+}
+else if ( nbr < 0 ){
+    document.write(" Le nombre : " + nbr + " est Négatif");
     }
-    else if ( nbr < 0 ){
-        document.write(" Le nombre : " + nbr + " est Négatif");
+    else {
+        document.write(" Le nombre : " + nbr + " est Zéro");
         }
-        else {
-            document.write(" Le nombre : " + nbr + " est Zéro");
-            }

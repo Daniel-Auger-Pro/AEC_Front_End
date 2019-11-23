@@ -11,12 +11,14 @@ max = 40;
 tauxHoraire = Number(prompt("Veuillez entrer le taux horaire svp :"));
 nombreHeureTravaillees = Number(prompt("Veuillez entrer le nombre d'heures svp :"));
 
+// Véréfication s'il y a des heures supplémentaires et calcule du tout.
+
 if (nombreHeureTravaillees <= max ){
     salaireTotal = nombreHeureTravaillees * tauxHoraire;
     document.write(" Le salaire Total est de : " + salaireTotal);
+}
+else {
+    heureSupplementaire = nombreHeureTravaillees - max;
+    salaireTotal = ( max * tauxHoraire) + (heureSupplementaire * (tauxHoraire * 2));
+    document.write(" Le salaire Total est de : " + salaireTotal);
     }
-    else {
-        heureSupplementaire = nombreHeureTravaillees - max
-        salaireTotal = ( max * tauxHoraire) + (heureSupplementaire * (tauxHoraire * 2));
-        document.write(" Le salaire Total est de : " + salaireTotal);
-        }

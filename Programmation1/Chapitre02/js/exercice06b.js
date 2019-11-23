@@ -17,18 +17,20 @@ a = 90; b = 80; c = 70; d = 60;
 
 note = Number(prompt("Veuillez entrer une note d'étudiant svp :"));
 
+// Vérification de la note maximum équivalente pour lui accordé une lettre.
+
 if (note < d ){
     document.write(" La note en lettre équivalent à : " + note + " égale à : E");
+}
+else if(note < c ) {
+    document.write(" La note en lettre équivalent à : " + note + " égale à : D");
     }
-    else if(note < c ) {
-        document.write(" La note en lettre équivalent à : " + note + " égale à : D");
+    else if(note < b ){
+        document.write(" La note en lettre équivalent à : " + note + " égale à : C");
         }
-        else if(note < b ){
-            document.write(" La note en lettre équivalent à : " + note + " égale à : C");
+        else if(note < a ){
+            document.write(" La note en lettre équivalent à : " + note + " égale à : B");
             }
-            else if(note < a ){
-                document.write(" La note en lettre équivalent à : " + note + " égale à : B");
+            else{
+                document.write(" La note en lettre équivalent à : " + note + " égale à : A");
                 }
-                else{
-                    document.write(" La note en lettre équivalent à : " + note + " égale à : A");
-                    }

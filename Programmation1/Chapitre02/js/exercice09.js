@@ -11,6 +11,8 @@ bonUtilisateur = "admin"; bonMotDePasse="12345";
 nomUtilisateur = prompt("Veuillez entrer le nom d'utilisateur svp :");
 motDePasse = prompt("Veuillez entrer le mot de passe svp :");
 
+// Vérification du bon utilisateur et le bon mot de passe, affichage du message correspondant.
+
 if ((nomUtilisateur === bonUtilisateur) && (motDePasse === bonMotDePasse)){
     document.write(" Bonjour " + nomUtilisateur);
     }

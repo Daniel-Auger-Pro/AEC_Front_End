@@ -17,6 +17,8 @@ a = 90; b = 80; c = 70; d = 60;
 
 note = Number(prompt("Veuillez entrer une note d'étudiant svp :"));
 
+// Vérification de la note minimum équivalente pour lui accordé une lettre.
+
 if (note >= a){
     document.write(" La note en lettre équivalent à : " + note + " égale à : A");
 }

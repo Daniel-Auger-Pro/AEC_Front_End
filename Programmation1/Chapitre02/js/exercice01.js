@@ -7,6 +7,8 @@ var nbr1,nbr2;
 nbr1 = Number(prompt("Veuillez entrer le nombre 1 svp :"));
 nbr2 = Number(prompt("Veuillez entrer le nombre 2 svp :"));
 
+// La vérification du quel entre les deux chiffres est le plus grand et les affichés.
+
 if (nbr1 > nbr2){
     document.write(" Le nombre 1 est le plus grand : " + nbr1);
     console.log(" Le nombre 1 est le plus grand : " + nbr1);
