@@ -48,4 +48,7 @@ else{
 
 prixAssurance = prixDuVehicule * taux;
 prixAssurance = prixAssurance.toFixed(2);
-document.write("<p classe='couleur'>" + "Le prix de l'assurance vaut : $" + prixAssurance+"</p>");
+
+"<div class='couleur'>";
+document.write("Le prix de l'assurance vaut : $" + prixAssurance);
+"</div>"
