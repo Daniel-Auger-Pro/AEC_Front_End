@@ -1,4 +1,4 @@
-// Daniel Auger - 23 novembre 2019<
+// Daniel Auger - 23 novembre 2019
 
 // Calculer le prix des assurances pour un véhicule.
 //
@@ -49,6 +49,5 @@ else{
 prixAssurance = prixDuVehicule * taux;
 prixAssurance = prixAssurance.toFixed(2);
 
-"<div class='couleur'>";
-document.write("Le prix de l'assurance vaut : $" + prixAssurance);
-"</div>"
+document.write('<div class="F">Le prix de l\'assurance vaut : $' + prixAssurance + '</div>');
+
