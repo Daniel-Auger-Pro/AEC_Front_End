@@ -66,7 +66,7 @@ if(controleur === "1" || controleur === "2"){
                 }
                 livraison = prix * 0.15;
                 livraison = livraison.toFixed(2);
-                prixTotal = (prix + livraison);
+                prixTotal = Number(prix + livraison);
                 document.write(phrase + " le filament 3D, une batterie USB"+"</br>");
                 document.write("Le prix total du robot est de $" + prix + "</br>");
                 document.write("La livraison de 15% est de $" + livraison + "</br>");
