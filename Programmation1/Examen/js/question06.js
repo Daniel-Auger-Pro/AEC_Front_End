@@ -26,7 +26,7 @@ le prix
 le prix avec la livraison de 15%.
 */
 
-var controleur,moteur,camera,matriceLed,prix,livraison,phrase;
+var controleur,moteur,camera,matriceLed,prix,livraison,phras,prixTotal;
 
 controleur = prompt("Entrez le type de controleur 1 = Pi et 2 = Pi Zero : ");
 moteur = Number(prompt("Entrez la quantité de moteur entre 2 et 24 : "));
@@ -64,14 +64,13 @@ if(controleur === "1" || controleur === "2"){
                 else{
                     phrase = phrase + "pas de matrice de LEDS pour les yeux, "
                 }
+                livraison = prix * 0.15;
+                livraison = livraison.toFixed(2);
+                prixTotal = (prix + livraison);
                 document.write(phrase + " le filament 3D, une batterie USB"+"</br>");
                 document.write("Le prix total du robot est de $" + prix + "</br>");
-                livraison = Number(prix * 0.15);
-                livraison = livraison.toFixed(2);
                 document.write("La livraison de 15% est de $" + livraison + "</br>");
-                //prix = prix.toFixed(2);
-                prix = (prix + livraison);
-                document.write("Le total est de $" + prix);
+                document.write("Le total est de $" + prixTotal);
             }
             else{
                 document.write("Vous n'avez pas fait le bon choix pour la matrice de LEDS pour les yeux.")
