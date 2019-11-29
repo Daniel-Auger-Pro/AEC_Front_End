@@ -65,7 +65,7 @@ if(controleur === "1" || controleur === "2"){
                     phrase = phrase + "pas de matrice de LEDS pour les yeux, "
                 }
                 livraison = Number(prix * 0.15);
-                livraison = livraison.toFixed(2);
+                //livraison = livraison.toFixed(2);
                 prixTotal = Number(prix + livraison);
                 document.write(phrase + " le filament 3D, une batterie USB"+"</br>");
                 document.write("Le prix total du robot est de $" + prix + "</br>");
