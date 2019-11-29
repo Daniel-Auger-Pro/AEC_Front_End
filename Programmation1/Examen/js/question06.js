@@ -33,7 +33,7 @@ moteur = Number(prompt("Entrez la quantité de moteur entre 2 et 24 : "));
 camera = prompt("Voulez-vous une caméra ? oui ou non : ");
 matriceLed = prompt("Voulez-vous une matrice de LEDS pour les yeux ? oui ou non : ");
 
-prix = 0;
+prix = 0; livraison = 0;
 if(controleur === "1" || controleur === "2"){
     if(controleur === "1"){
         prix = prix + 55;
@@ -64,7 +64,7 @@ if(controleur === "1" || controleur === "2"){
                 else{
                     phrase = phrase + "pas de matrice de LEDS pour les yeux, "
                 }
-                livraison = prix * 0.15;
+                livraison = Number(prix * 0.15);
                 livraison = livraison.toFixed(2);
                 prixTotal = Number(prix + livraison);
                 document.write(phrase + " le filament 3D, une batterie USB"+"</br>");
